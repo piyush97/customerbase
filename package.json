@@ -2,9 +2,9 @@
   "name": "customerbase",
   "version": "1.0.0",
   "description": "simple GraphQL server",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:server": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/piyush97/customerbase/issues"
   },
-  "homepage": "https://github.com/piyush97/customerbase#readme"
+  "homepage": "https://github.com/piyush97/customerbase#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "nodemon": "^1.18.3"
+  }
 }
