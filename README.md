@@ -11,3 +11,7 @@
 1. Axios
 1. Nodemon
 1. JSON Server
+
+Report Bugs here
+https://github.com/piyush97/customerbase/issues
+
